@@ -1,0 +1,32 @@
+https://guides.github.com/activities/hello-world/
+https://git-scm.com/book/en/v2/
+
+// initial/cloning
+
+# cloning an existing repository
+$ git clone https://github.com/johnnydo/website-list.git
+
+
+// basic
+
+# checking the status of our files
+$ git status
+
+# tracking new files
+$ git add github.txt
+
+# committing our changes
+$ git commit -m "update github.txt
+
+# viewing the commit history
+$ git log
+
+# pushing to our remotes: git push [remote-name] [branch-name]
+$ git push origin master
+
+
+// 
+# when we commit too early and possibly forget to add some files, or we mess up our commit messages. If we want to try that commit again we can run commit with the --amend option.
+$ git commit -m "initial commit"
+$ git add forgotten_file
+$ git commit --amend
