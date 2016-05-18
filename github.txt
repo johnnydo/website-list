@@ -46,3 +46,13 @@ $ git push origin master
 $ git commit -m "initial commit"
 $ git add forgotten_file
 $ git commit --amend
+
+// branch
+# check branch
+$ git branch
+# create bew branch
+$ git checkout -b step1
+# switch to branch
+$ git checkout step1
+# delete branch
+git branch -D step1
